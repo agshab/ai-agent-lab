@@ -11,7 +11,7 @@
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "8.0.0",
           "Microsoft.Extensions.Configuration.UserSecrets": "8.0.0",
-          "Microsoft.SemanticKernel": "0.22.230905.3-preview",
+          "Microsoft.SemanticKernel": "0.23.230906.2-preview",
           "Microsoft.SemanticKernel.Connectors.OpenAI": "1.0.0-rc4",
           "dotenv.net": "4.0.0"
         },
@@ -274,15 +274,16 @@
           }
         }
       },
-      "Microsoft.SemanticKernel/0.22.230905.3-preview": {
+      "Microsoft.SemanticKernel/0.23.230906.2-preview": {
         "dependencies": {
-          "Microsoft.SemanticKernel.Connectors.AI.OpenAI": "0.22.230905.3-preview",
+          "Microsoft.SemanticKernel.Connectors.AI.OpenAI": "0.23.230906.2-preview",
           "Microsoft.SemanticKernel.Core": "1.0.0-rc4",
-          "Microsoft.SemanticKernel.Planning.ActionPlanner": "0.22.230905.3-preview",
-          "Microsoft.SemanticKernel.Planning.SequentialPlanner": "0.22.230905.3-preview",
-          "Microsoft.SemanticKernel.Reliability.Basic": "0.22.230905.3-preview",
-          "Microsoft.SemanticKernel.Skills.Core": "0.22.230905.3-preview",
-          "Microsoft.SemanticKernel.TemplateEngine.PromptTemplateEngine": "0.22.230905.3-preview"
+          "Microsoft.SemanticKernel.Planning.ActionPlanner": "0.23.230906.2-preview",
+          "Microsoft.SemanticKernel.Planning.SequentialPlanner": "0.23.230906.2-preview",
+          "Microsoft.SemanticKernel.Planning.StepwisePlanner": "0.23.230906.2-preview",
+          "Microsoft.SemanticKernel.Reliability.Basic": "0.23.230906.2-preview",
+          "Microsoft.SemanticKernel.Skills.Core": "0.23.230906.2-preview",
+          "Microsoft.SemanticKernel.TemplateEngine.PromptTemplateEngine": "0.23.230906.2-preview"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SemanticKernel.dll": {
@@ -305,7 +306,7 @@
           }
         }
       },
-      "Microsoft.SemanticKernel.Connectors.AI.OpenAI/0.22.230905.3-preview": {
+      "Microsoft.SemanticKernel.Connectors.AI.OpenAI/0.23.230906.2-preview": {
         "dependencies": {
           "Azure.AI.OpenAI": "1.0.0-beta.11",
           "Microsoft.SemanticKernel.Core": "1.0.0-rc4"
@@ -343,7 +344,7 @@
           }
         }
       },
-      "Microsoft.SemanticKernel.Planning.ActionPlanner/0.22.230905.3-preview": {
+      "Microsoft.SemanticKernel.Planning.ActionPlanner/0.23.230906.2-preview": {
         "dependencies": {
           "Microsoft.SemanticKernel.Abstractions": "1.0.0-rc4",
           "Microsoft.SemanticKernel.Core": "1.0.0-rc4"
@@ -355,13 +356,26 @@
           }
         }
       },
-      "Microsoft.SemanticKernel.Planning.SequentialPlanner/0.22.230905.3-preview": {
+      "Microsoft.SemanticKernel.Planning.SequentialPlanner/0.23.230906.2-preview": {
         "dependencies": {
           "Microsoft.SemanticKernel.Abstractions": "1.0.0-rc4",
           "Microsoft.SemanticKernel.Core": "1.0.0-rc4"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SemanticKernel.Planning.SequentialPlanner.dll": {
+            "assemblyVersion": "0.22.0.0",
+            "fileVersion": "0.22.0.0"
+          }
+        }
+      },
+      "Microsoft.SemanticKernel.Planning.StepwisePlanner/0.23.230906.2-preview": {
+        "dependencies": {
+          "Microsoft.SemanticKernel.Abstractions": "1.0.0-rc4",
+          "Microsoft.SemanticKernel.Core": "1.0.0-rc4",
+          "Microsoft.SemanticKernel.TemplateEngine.PromptTemplateEngine": "0.23.230906.2-preview"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.SemanticKernel.Planning.StepwisePlanner.dll": {
             "assemblyVersion": "0.22.0.0",
             "fileVersion": "0.22.0.0"
           }
@@ -380,7 +394,7 @@
           }
         }
       },
-      "Microsoft.SemanticKernel.Reliability.Basic/0.22.230905.3-preview": {
+      "Microsoft.SemanticKernel.Reliability.Basic/0.23.230906.2-preview": {
         "dependencies": {
           "Microsoft.SemanticKernel.Abstractions": "1.0.0-rc4",
           "Microsoft.SemanticKernel.Core": "1.0.0-rc4"
@@ -392,7 +406,7 @@
           }
         }
       },
-      "Microsoft.SemanticKernel.Skills.Core/0.22.230905.3-preview": {
+      "Microsoft.SemanticKernel.Skills.Core/0.23.230906.2-preview": {
         "dependencies": {
           "Microsoft.SemanticKernel.Core": "1.0.0-rc4"
         },
@@ -403,7 +417,7 @@
           }
         }
       },
-      "Microsoft.SemanticKernel.TemplateEngine.PromptTemplateEngine/0.22.230905.3-preview": {
+      "Microsoft.SemanticKernel.TemplateEngine.PromptTemplateEngine/0.23.230906.2-preview": {
         "dependencies": {
           "Microsoft.SemanticKernel.Abstractions": "1.0.0-rc4"
         },
@@ -606,12 +620,12 @@
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
-    "Microsoft.SemanticKernel/0.22.230905.3-preview": {
+    "Microsoft.SemanticKernel/0.23.230906.2-preview": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zeVCAL8MmCTs99aQSKo8qAv17WPnwbzWvhtBT6Lm1zJyDI+M6T9Il1ibkjwKKirhWmnSAzZQRUpzQGbsmlgffA==",
-      "path": "microsoft.semantickernel/0.22.230905.3-preview",
-      "hashPath": "microsoft.semantickernel.0.22.230905.3-preview.nupkg.sha512"
+      "sha512": "sha512-Zo61lIFxytYWdqI2kScnJhvCX6ItlqkLmmGxayabpdNlQ+LbIMRzFoMZMEsdiMi9rc8bzqeugWrBMRDUFiCOSg==",
+      "path": "microsoft.semantickernel/0.23.230906.2-preview",
+      "hashPath": "microsoft.semantickernel.0.23.230906.2-preview.nupkg.sha512"
     },
     "Microsoft.SemanticKernel.Abstractions/1.0.0-rc4": {
       "type": "package",
@@ -620,12 +634,12 @@
       "path": "microsoft.semantickernel.abstractions/1.0.0-rc4",
       "hashPath": "microsoft.semantickernel.abstractions.1.0.0-rc4.nupkg.sha512"
     },
-    "Microsoft.SemanticKernel.Connectors.AI.OpenAI/0.22.230905.3-preview": {
+    "Microsoft.SemanticKernel.Connectors.AI.OpenAI/0.23.230906.2-preview": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-69e7z/O3eZkDlVwrPkVgJXajDOiJZMeTtYCxxyW7MpPL/AvybEBd3BC+JNVPrPIzZGZiu9mQCmPU2i4O3Yrc+g==",
-      "path": "microsoft.semantickernel.connectors.ai.openai/0.22.230905.3-preview",
-      "hashPath": "microsoft.semantickernel.connectors.ai.openai.0.22.230905.3-preview.nupkg.sha512"
+      "sha512": "sha512-9ObeFPMZSAeWLKHZkulDxGQlcTxDekbF/wnfQ2tnbhXGKWJGyljj1aVnIohWO/2tCpFfYcMxu86b/MeEe3gtBg==",
+      "path": "microsoft.semantickernel.connectors.ai.openai/0.23.230906.2-preview",
+      "hashPath": "microsoft.semantickernel.connectors.ai.openai.0.23.230906.2-preview.nupkg.sha512"
     },
     "Microsoft.SemanticKernel.Connectors.OpenAI/1.0.0-rc4": {
       "type": "package",
@@ -641,19 +655,26 @@
       "path": "microsoft.semantickernel.core/1.0.0-rc4",
       "hashPath": "microsoft.semantickernel.core.1.0.0-rc4.nupkg.sha512"
     },
-    "Microsoft.SemanticKernel.Planning.ActionPlanner/0.22.230905.3-preview": {
+    "Microsoft.SemanticKernel.Planning.ActionPlanner/0.23.230906.2-preview": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Gq1j0Tzb4dboC4kwe1pu56CwyDT2jtBqsPCGIeaAjsXaRXm83nPyB6jMiNCts6bgpErWhfezhS4Nm9FGIUdndw==",
-      "path": "microsoft.semantickernel.planning.actionplanner/0.22.230905.3-preview",
-      "hashPath": "microsoft.semantickernel.planning.actionplanner.0.22.230905.3-preview.nupkg.sha512"
+      "sha512": "sha512-rE00h9m7sZRJREsT6KwHoupf70hw/zDLJGz3tscoNqJxBjBOhMSmRxJ6VjvnPiR4Dvw3v49ZHLRPKsMyOJC78A==",
+      "path": "microsoft.semantickernel.planning.actionplanner/0.23.230906.2-preview",
+      "hashPath": "microsoft.semantickernel.planning.actionplanner.0.23.230906.2-preview.nupkg.sha512"
     },
-    "Microsoft.SemanticKernel.Planning.SequentialPlanner/0.22.230905.3-preview": {
+    "Microsoft.SemanticKernel.Planning.SequentialPlanner/0.23.230906.2-preview": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-l2KU8WtBPiMPy8I0iJQ4VXjy+w6gGK44l1I50OL05qr6vYlCd6ispzn17/houhl1RpqhX7MmvUxCrbDhK52Ygg==",
-      "path": "microsoft.semantickernel.planning.sequentialplanner/0.22.230905.3-preview",
-      "hashPath": "microsoft.semantickernel.planning.sequentialplanner.0.22.230905.3-preview.nupkg.sha512"
+      "sha512": "sha512-bW4wKBix09WR4eENf8vHCqZ6gqncUVZ6aEkxMQcr9J6K6p606lgCKmbdaZYNC3jIdRQ+0VnHnVRkXzyvF/vngA==",
+      "path": "microsoft.semantickernel.planning.sequentialplanner/0.23.230906.2-preview",
+      "hashPath": "microsoft.semantickernel.planning.sequentialplanner.0.23.230906.2-preview.nupkg.sha512"
+    },
+    "Microsoft.SemanticKernel.Planning.StepwisePlanner/0.23.230906.2-preview": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yQ/a4YZJ8pbs97lbzXTecNzNX3FjCCj8XxDm59YYa9V8ZQVF6GqquXMhWg5Gv9DnNhq6vO6nFsM2xCI+7Thy5g==",
+      "path": "microsoft.semantickernel.planning.stepwiseplanner/0.23.230906.2-preview",
+      "hashPath": "microsoft.semantickernel.planning.stepwiseplanner.0.23.230906.2-preview.nupkg.sha512"
     },
     "Microsoft.SemanticKernel.Plugins.Memory/1.0.0-rc4": {
       "type": "package",
@@ -662,26 +683,26 @@
       "path": "microsoft.semantickernel.plugins.memory/1.0.0-rc4",
       "hashPath": "microsoft.semantickernel.plugins.memory.1.0.0-rc4.nupkg.sha512"
     },
-    "Microsoft.SemanticKernel.Reliability.Basic/0.22.230905.3-preview": {
+    "Microsoft.SemanticKernel.Reliability.Basic/0.23.230906.2-preview": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XCzEUMaBgDXOMtpKT8O9fuB857/TZVfrdJ0XiTGrEJopggo2GU6MQzFTCGZXvuXTVVhl0EiedfiV2StmTzS5hA==",
-      "path": "microsoft.semantickernel.reliability.basic/0.22.230905.3-preview",
-      "hashPath": "microsoft.semantickernel.reliability.basic.0.22.230905.3-preview.nupkg.sha512"
+      "sha512": "sha512-a0itGhDVih9k6DUVph5q/YvLkgitd4RtCJk88WeKgIAQGzKfVkaFVGrH9Xz3wyijeFbfp9t7Zsn7zBOIaR7FZA==",
+      "path": "microsoft.semantickernel.reliability.basic/0.23.230906.2-preview",
+      "hashPath": "microsoft.semantickernel.reliability.basic.0.23.230906.2-preview.nupkg.sha512"
     },
-    "Microsoft.SemanticKernel.Skills.Core/0.22.230905.3-preview": {
+    "Microsoft.SemanticKernel.Skills.Core/0.23.230906.2-preview": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9sNGmvrDDrs31kssHTCrcab31ygrgYZ5HjTwn9CXea+SUcwcx8B0BYUMNOENRt8qqXQAmsSHt43YSVAcagiSzA==",
-      "path": "microsoft.semantickernel.skills.core/0.22.230905.3-preview",
-      "hashPath": "microsoft.semantickernel.skills.core.0.22.230905.3-preview.nupkg.sha512"
+      "sha512": "sha512-lSXaITPe31NyuAGJVy5sQMzTzyOVik9on7+u4yj7Q0JK+Mj/ixqZsi9sqGrhFS9zLEI87ojtCOw21mfmFwiDUg==",
+      "path": "microsoft.semantickernel.skills.core/0.23.230906.2-preview",
+      "hashPath": "microsoft.semantickernel.skills.core.0.23.230906.2-preview.nupkg.sha512"
     },
-    "Microsoft.SemanticKernel.TemplateEngine.PromptTemplateEngine/0.22.230905.3-preview": {
+    "Microsoft.SemanticKernel.TemplateEngine.PromptTemplateEngine/0.23.230906.2-preview": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5JUef1kVn/dL+ViA+j48mOi3hH/DenEXp6t9MyE2Ocrn7fOnNInLmDzM5IDZGgK4Mt9ky8010iN9fcYtgtcFFg==",
-      "path": "microsoft.semantickernel.templateengine.prompttemplateengine/0.22.230905.3-preview",
-      "hashPath": "microsoft.semantickernel.templateengine.prompttemplateengine.0.22.230905.3-preview.nupkg.sha512"
+      "sha512": "sha512-K0dzxqbCtVuPBOfq5ZCaa1JC2xPDmgn0mCio8Wm6033/iLFBf2S40SClaHgzHM25gAhgiI4MQAwd0BJXKGX8dw==",
+      "path": "microsoft.semantickernel.templateengine.prompttemplateengine/0.23.230906.2-preview",
+      "hashPath": "microsoft.semantickernel.templateengine.prompttemplateengine.0.23.230906.2-preview.nupkg.sha512"
     },
     "System.Memory.Data/1.0.2": {
       "type": "package",

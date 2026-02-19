@@ -13,6 +13,7 @@ namespace SemanticKernelPlugin
                 return "Error: Input string is null or empty.";
             }
 
+          
            return new string(input.Reverse().ToArray());
 
         }

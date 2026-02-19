@@ -59,7 +59,7 @@
             },
             "Microsoft.SemanticKernel": {
               "target": "Package",
-              "version": "[0.22.230905.3-preview, )"
+              "version": "[0.23.230906.2-preview, )"
             },
             "Microsoft.SemanticKernel.Connectors.OpenAI": {
               "target": "Package",
