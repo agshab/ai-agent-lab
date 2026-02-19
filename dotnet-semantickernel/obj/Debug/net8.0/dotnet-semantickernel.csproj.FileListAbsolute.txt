@@ -1,0 +1,14 @@
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/bin/Debug/net8.0/dotnet-semantickernel
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/bin/Debug/net8.0/dotnet-semantickernel.deps.json
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/bin/Debug/net8.0/dotnet-semantickernel.runtimeconfig.json
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/bin/Debug/net8.0/dotnet-semantickernel.dll
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/bin/Debug/net8.0/dotnet-semantickernel.pdb
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/obj/Debug/net8.0/dotnet-semantickernel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/obj/Debug/net8.0/dotnet-semantickernel.AssemblyInfoInputs.cache
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/obj/Debug/net8.0/dotnet-semantickernel.AssemblyInfo.cs
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/obj/Debug/net8.0/dotnet-semantickernel.csproj.CoreCompileInputs.cache
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/obj/Debug/net8.0/dotnet-semantickernel.dll
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/obj/Debug/net8.0/refint/dotnet-semantickernel.dll
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/obj/Debug/net8.0/dotnet-semantickernel.pdb
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/obj/Debug/net8.0/dotnet-semantickernel.genruntimeconfig.cache
+/Users/ghazal/Downloads/ai_agent_lab/dotnet-semantickernel/obj/Debug/net8.0/ref/dotnet-semantickernel.dll
