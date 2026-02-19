@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet-semantickernel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7dc833bbbe573d23b6b1a50fbe6cd13ca863836")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet-semantickernel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet-semantickernel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
